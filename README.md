@@ -4,7 +4,7 @@
 This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using SQL. It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity (easy, medium, and advanced), and optimizing query performance. The primary goals of the project are to practice advanced SQL skills and generate valuable insights from the dataset.
 
 ## Steps performed in the project:
-### 1. 1. Data Exploration
+### 1. Data Exploration
 Before utilizing SQL for data analysis, it is essential to gain a comprehensive understanding of the dataset. The dataset includes the following attributes:
 
 Artist: The performer of the track.
@@ -20,7 +20,7 @@ Easy Queries: Basic data retrieval, filtering, and simple aggregations.
 Medium Queries: More complex queries incorporating grouping, aggregation functions, and joins.
 Advanced Queries: Complex operations such as nested subqueries, window functions, Common Table Expressions (CTEs), and performance optimization techniques.
 
-###3. Query Optimization
+### 3. Query Optimization
 At an advanced level, emphasis is placed on enhancing query performance. Some key optimization strategies include:
 
 Indexing: Implementing indexes on frequently queried columns to improve retrieval speed.
