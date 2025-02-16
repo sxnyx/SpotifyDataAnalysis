@@ -63,3 +63,38 @@ SELECT DISTINCT channel FROM spotify
 
 --to check the most_played platform
 SELECT DISTINCT most_played_on FROM spotify
+
+
+--Solving Problems
+
+-------------------------
+-----Easy Level-----------
+--------------------------
+
+--1. Retrieve the names of all tracks that have more than 1 billion streams.
+SELECT * FROM spotify
+where stream > 1000000000
+
+--2. List all albums along with their respective artists
+SELECT album, artist
+FROM spotify
+
+--distict albums
+SELECT DISTINCT album, artist
+FROM spotify
+
+-- 3. Get the total number of comments for tracks where licensed = TRUE
+SELECT * FROM spotify
+WHERE licensed = 'true'
+
+-- 4. Find all tracks that belong to the album type single
+SELECT * FROM spotify
+WHERE album_type = 'single'
+
+-- 5. Count the total number of tracks by each artist.
+SELECT 
+	artist, ---1
+	COUNT(*) as total_num_songs --- 2
+FROM spotify
+GROUP BY artist
+ORDER BY 2 DESC
